@@ -12,7 +12,7 @@ public class PersonThroughEarth {
         double earthRadius = 6371; //meters
         double moonRadius = 1737; // meters
         double personHeight;
-
+ 
 
         System.out.println("We are going to calculate which part of the human body travel more distance!");
 

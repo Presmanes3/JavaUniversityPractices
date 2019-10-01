@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Email {
 
-    public static void main(String [] args){
+    public static void main(String[] args) {
 
         Scanner myScanner = new Scanner(System.in).useLocale(Locale.US);
 
@@ -11,7 +11,7 @@ public class Email {
         System.out.print("Input : ");
         String email = myScanner.nextLine();
 
-        //System.out.println("You have introduced : "+ input);
+        // System.out.println("You have introduced : "+ input);
 
         String input[] = email.split("@", 2);
         String username = input[0];
@@ -24,8 +24,7 @@ public class Email {
 
         web = web + domain + "/" + username;
 
-        System.out.println("Web : "+ web);
-
+        System.out.println("Web : " + web);
 
     }
 }
